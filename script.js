@@ -6,6 +6,10 @@ var title = document.getElementById("title")
 var cellIsClicked = [null, null, null, null, null, null, null, null, null]
 
 
+document.querySelector(".res-btn button").addEventListener("click", () => {
+    window.location.reload();
+})
+
 for (let cellIndex = 0; cellIndex < cells.length; cellIndex++){
     cells[cellIndex].addEventListener("click", () => {
         indexOfCell = cellIndex

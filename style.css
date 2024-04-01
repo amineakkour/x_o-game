@@ -13,7 +13,24 @@ body{
     font-family: sans-serif;
 }
 
+.res-btn{
+    text-align: center;
+    margin-top: 20px;
+}
 
+.res-btn button{
+    background-color: #2e6a8d;
+    padding: 8px 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: .4s all;
+}
+
+.res-btn button:hover{
+    color: black;
+    background-color: #82c2e7;
+}
 h1{
     margin: 0 auto;
     margin-bottom: 60px;
